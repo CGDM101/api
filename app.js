@@ -1,5 +1,7 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
+app.use(cors())
 const port = 3000
 
 app.get("/", (req, res) => {
@@ -13,7 +15,10 @@ app.get("/", (req, res) => {
             text: "This twisted tortured mess",
         },
     ]
-
+    res.set({
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+    })
     res.json(quotes)
 })
 
