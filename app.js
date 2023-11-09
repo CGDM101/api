@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
         },
         {
             id: 8,
-            text: "I dont' advice and I don't criticise",
+            text: "I don't advice and I don't criticise",
         },
         {
             id: 9,
@@ -45,7 +45,47 @@ app.get("/", (req, res) => {
         {
             id: 10,
             text: "Nothing comes easy, it never will",
-        }
+        },
+        {
+            id: 11,
+            text: "There's something wrong with me chemically, something wrong with me inherently, the wrong mix in the wrong genes",
+        },
+        {
+            id: 12,
+            text: "Life is full of surprises, it advertises nothing",
+        },
+        {
+            id: 13,
+            text: "Celebrate the fact that we've seen the back of another black day",
+        },
+        {
+            id: 14,
+            text: "Let me hear you make decisions without your television",
+        },
+        {
+            id: 15,
+            text: "You better learn your lesson well; hide what you have to hide",
+        },
+        {
+            id: 16,
+            text: "A place to hide the tears that you cried",
+        },
+        {
+            id: 17,
+            text: "Death is everywhere",
+        },
+        {
+            id: 18,
+            text: "Vows are spoken to be broken",
+        },
+        {
+            id: 19,
+            text: "See the stars, they're shining bright, everything's allright tonight",
+        },
+        {
+            id: 20,
+            text: "I'll meet you by the river, or maybe on the other side",
+        },
 
     ]
     res.set({
